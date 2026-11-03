@@ -1,0 +1,189 @@
+{
+  "created_at_utc": "2026-11-03T12:20:22.519162+00:00",
+  "scope": "Locally executed standalone illustrative model extensions; not the frozen comparison or independent scenario sample.",
+  "records": [
+    {
+      "method": "hocbf",
+      "model": "single_integrator",
+      "model_extension": true,
+      "offset": 0.15,
+      "initial": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        2.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.4
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "dt": 0.05,
+      "requested_steps": 400,
+      "executed_steps": 109,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.05417413461118556,
+      "minimum_sampled_clearance": 0.5666065103826841,
+      "collision_sampled": false,
+      "solver_fallbacks": 0,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or sampled-safety theorem claimed",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "input_semantics": "held physical control",
+      "dynamic_extension": false,
+      "artifacts": {
+        "evidence/examples/single_integrator/events.json": "88cf059f284b8777858ac2a322bf72fd8ef18c1bf10c3c5771c26ab8892ab815",
+        "evidence/examples/single_integrator/summary.json": "6bd02c76cd7aa81ed405afb4276000db3bd4386192a3a2c401266d2e137db3f1",
+        "evidence/examples/single_integrator/trajectory.npz": "b4a52a56a6ebf5c71489b37365eabb45596efe654ae6bb551262ae983534e7c9"
+      }
+    },
+    {
+      "method": "hocbf",
+      "model": "double_integrator",
+      "model_extension": true,
+      "offset": 0.15,
+      "initial": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        2.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.4
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "dt": 0.05,
+      "requested_steps": 400,
+      "executed_steps": 128,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.025594684233888887,
+      "minimum_sampled_clearance": 0.6015198975944303,
+      "collision_sampled": false,
+      "solver_fallbacks": 0,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or sampled-safety theorem claimed",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "input_semantics": "held physical control",
+      "dynamic_extension": false,
+      "artifacts": {
+        "evidence/examples/double_integrator/events.json": "98aee11958b75c3a9c95a71e938c89395168fd352b464fcb96146aee0b703921",
+        "evidence/examples/double_integrator/summary.json": "5034f058ab6e957629551230b8e14761691eff2aaea741be1817b9910b8f4a14",
+        "evidence/examples/double_integrator/trajectory.npz": "8aca83cec911990a7da81cf359449f28886ff86ad282919a1e5e234ff4ed9664"
+      }
+    },
+    {
+      "method": "hocbf",
+      "model": "kinematic_unicycle",
+      "model_extension": true,
+      "offset": 0.15,
+      "initial": [
+        -0.13416407864998736,
+        -0.06708203932499368,
+        0.4636476090008061
+      ],
+      "goal": [
+        4.0,
+        2.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.4
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "dt": 0.05,
+      "requested_steps": 400,
+      "executed_steps": 130,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.054246950519552896,
+      "minimum_sampled_clearance": 0.14720519763339085,
+      "collision_sampled": false,
+      "solver_fallbacks": 0,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or sampled-safety theorem claimed",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "input_semantics": "held physical control",
+      "dynamic_extension": false,
+      "artifacts": {
+        "evidence/examples/kinematic_unicycle/events.json": "06ab6b23360fc1e4ac4fb20bab48b975885732d5a428c3c9f1f175db662a5b50",
+        "evidence/examples/kinematic_unicycle/summary.json": "a2ba97703eb9628d4b105c39a5774da192d9f31b62818ae6b89cc33ecc903782",
+        "evidence/examples/kinematic_unicycle/trajectory.npz": "2e8e5d0c353fc242e9c444c2146a924523d9f468365169a87fc27edc0397d100"
+      }
+    },
+    {
+      "method": "hocbf",
+      "model": "dynamic_unicycle",
+      "model_extension": true,
+      "offset": 0.15,
+      "initial": [
+        -0.13416407864998736,
+        -0.06708203932499368,
+        0.4636476090008061,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        2.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.4
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "dt": 0.05,
+      "requested_steps": 400,
+      "executed_steps": 400,
+      "outcome": "timeout",
+      "final_goal_error": 0.14753811036911063,
+      "minimum_sampled_clearance": 0.11456846135913873,
+      "collision_sampled": false,
+      "solver_fallbacks": 0,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or sampled-safety theorem claimed",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "input_semantics": "held physical control",
+      "dynamic_extension": false,
+      "artifacts": {
+        "evidence/examples/dynamic_unicycle/events.json": "07a86526f04250d08ac321d3d9c3fd034aab1dd86df980d690a3be9e7c0c84f7",
+        "evidence/examples/dynamic_unicycle/summary.json": "f6b7453c279f33627a43fb9e11ad1792e93e18ccd4dbbacb933eb0b576a39244",
+        "evidence/examples/dynamic_unicycle/trajectory.npz": "88cbadc124a1020a472526ca3d12a83fd6423a11120f0f866ae8879821caa25e"
+      }
+    }
+  ],
+  "source_sha256": {
+    "src/hocbf/__init__.py": "5827e3bc790306205024126c0a4c5555ed05bc68796295e51cc11cec2e22d273",
+    "src/hocbf/__main__.py": "c8076e2355c0b8ffff8e287102702f7652555fdaf5734a9f83c314b942b317e2",
+    "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+    "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+    "src/hocbf/native_runner.py": "64c0ae706ee7384d5302f6691b088b7efcc449196e5ed47fe55a8199ffb88920",
+    "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+    "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+    "src/hocbf/upstream.py": "3252062eda6858137e47f3453038be6abb62d2b7e3f6850c34fcf293c5c578f5",
+    "src/hocbf/validation.py": "dd0a779d565c857b4a7d9adc7c83907d019da83bcc6f6359d5586f93b592fb8b"
+  },
+  "regression_tests_passed": 4,
+  "regression_scope": "Model input contracts, QP infeasibility, nondefault hold duration and ZOCBF fallback bounds."
+}

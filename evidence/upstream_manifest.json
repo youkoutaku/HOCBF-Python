@@ -1,0 +1,60 @@
+{
+  "repository": "https://github.com/Weixy21/HOCBF",
+  "commit": "a63082a953e96bbf5d959dab314d3d82a8fd717c",
+  "retrieved_at_utc": "2026-11-03T00:26:01.577444+00:00",
+  "archive_url": "https://codeload.github.com/Weixy21/HOCBF/tar.gz/a63082a953e96bbf5d959dab314d3d82a8fd717c",
+  "archive_sha256": "b4f398b96ee9177b2807ed409966a9cfe6c8b02e76364fa7dba16932b2863c90",
+  "files": [
+    {
+      "path": "ACC/CBF.png",
+      "bytes": 61032,
+      "sha256": "7f8caa082a8b0c689e1bec287141142ae293439503484a9ad57d5a28fecb6add"
+    },
+    {
+      "path": "ACC/acc.m",
+      "bytes": 222,
+      "sha256": "2b94a8b38146433836a7722c56089c256208e0002d06583de1fb79573b9b3145"
+    },
+    {
+      "path": "ACC/acc_main.m",
+      "bytes": 2065,
+      "sha256": "6a83351478cdc8e6b3fa97456705ff2569492e855de2b455f8bed5908b6b4987"
+    },
+    {
+      "path": "README.md",
+      "bytes": 817,
+      "sha256": "b54fe71bbf11e1ee5e11c36140dcab0955949eb5f37eeb4832b30827cd042916"
+    },
+    {
+      "path": "Robot2D/CM_draw.m",
+      "bytes": 2079,
+      "sha256": "3ac124fb4936c5bf569a982c0c77065d8319188f05b3c28e544eaae9c0fed55a"
+    },
+    {
+      "path": "Robot2D/CM_dynamics.m",
+      "bytes": 140,
+      "sha256": "7e3ead3655f9d309faddd018c4f97361bb8d135a0966fe35eba5eea18dfe7e49"
+    },
+    {
+      "path": "Robot2D/CM_exe.m",
+      "bytes": 4703,
+      "sha256": "012804755011df9fb7f308b2aba2452f565364da79fa7f882804d17437b2de43"
+    },
+    {
+      "path": "Robot2D/CM_main.m",
+      "bytes": 2534,
+      "sha256": "cbda38ceb03a026c4db5a2bf2a8f885125cae4ddb035441e03d9feabecbeff97"
+    },
+    {
+      "path": "Robot2D/map.m",
+      "bytes": 4011,
+      "sha256": "18f5329ba4337a1d94ebfbf181bf86f9b9b03180867922ccae1fbed78ad92942"
+    },
+    {
+      "path": "Robot2D/sensing.m",
+      "bytes": 206,
+      "sha256": "7150059fdc638af6c91c9f45e8f39dbb075d6ec2eb502006be7f168096d407aa"
+    }
+  ],
+  "license_files": []
+}

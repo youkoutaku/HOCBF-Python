@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hocbf-python"
+version = "0.1.0"
+description = "HOCBF-Python — paper reproduction and explicitly scoped model extensions"
+readme = "README.md"
+authors = [{name = "Yo Kotaku"}]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.12,<2", "casadi>=3.7,<4", "clarabel>=0.10,<1", "matplotlib>=3.8,<4"]
+
+[project.optional-dependencies]
+original = ["cvxpy>=1.5,<2", "ecos>=2,<3"]
+
+[project.urls]
+"Maintainer" = "https://github.com/youkoutaku"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hocbf = ["data/*.json", "data/*.npz", "data/*.gz"]

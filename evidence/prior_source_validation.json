@@ -1,0 +1,43 @@
+{
+  "provenance": "Strict Python source translation; not author-provided Python code",
+  "validation_correction": "Physical controls and auxiliary CLF slacks are reported separately; previous attempt mistakenly included slack in physical-control error gate. Earlier failed report retained.",
+  "backend": "Clarabel QP + SciPy RK45(rtol=1e-3,atol=1e-6)",
+  "acceptance_predeclared": {
+    "matrix_max_abs": 1e-10,
+    "normalized_qp_control_max_abs": 1e-05,
+    "objective_relative": 1e-06,
+    "closed_loop_state_max_abs": 0.001,
+    "closed_loop_normalized_control_max_abs": 0.001
+  },
+  "examples": {
+    "acc": {
+      "reference_run": "20261103T003716497495Z_hocbf_acc",
+      "matrix_max_abs_error": 0.0,
+      "normalized_qp_control_max_abs_error": 5.787110653314316e-10,
+      "slack_max_abs_error": 7.846301741665229e-08,
+      "objective_max_relative_error": 9.358072612008024e-11,
+      "python_kkt_stationarity_max": 1.8189894035458565e-12,
+      "python_max_constraint_violation": 0.0,
+      "closed_loop_state_max_abs_error": 5.991616092160257e-10,
+      "closed_loop_normalized_control_max_abs_error": 3.554014531828491e-10,
+      "qp_count": 300,
+      "matrix_and_qp_passed": true,
+      "closed_loop_passed": true
+    },
+    "robot2d": {
+      "reference_run": "20261103T003718788943Z_hocbf_robot2d",
+      "matrix_max_abs_error": 3.410605131648481e-13,
+      "normalized_qp_control_max_abs_error": 8.971444726853335e-06,
+      "slack_max_abs_error": 0.0038422104220633426,
+      "objective_max_relative_error": 7.386927884679264e-10,
+      "python_kkt_stationarity_max": 1.2807361855077248e-10,
+      "python_max_constraint_violation": 9.092338291777011e-14,
+      "closed_loop_state_max_abs_error": 0.00039964362712296975,
+      "closed_loop_normalized_control_max_abs_error": 0.0001981914387165773,
+      "qp_count": 2500,
+      "matrix_and_qp_passed": true,
+      "closed_loop_passed": true
+    }
+  },
+  "passed": true
+}

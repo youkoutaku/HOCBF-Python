@@ -1,0 +1,885 @@
+{
+  "created_at_utc": "2026-11-03T13:00:35.914504+00:00",
+  "passed": true,
+  "scope": "Current presentation/evidence rebuild installed into a fresh environment. All four no-waypoint demos rerun from the installed wheel and all arrays/metrics compared to displayed evidence. Earlier default-demo verification and regression counts retained; computational controller/dynamics code is unchanged, with HOCBF plot-label and VOCBF scope-text fixes only.",
+  "commands": [
+    {
+      "name": "build",
+      "command": [
+        "uv",
+        "build",
+        "--out-dir",
+        "dist"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "create_environment",
+      "command": [
+        "uv",
+        "venv",
+        "--python",
+        "3.12",
+        "<clean-temp>/env"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "install_wheel",
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "<clean-temp>/env/bin/python",
+        "-r",
+        "<repository>/requirements-tested.txt",
+        "<repository>/dist/hocbf_python-0.1.0-py3-none-any.whl"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "equation_verify",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-m",
+        "hocbf",
+        "verify",
+        "--output",
+        "verification.json"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "four_model_single_obstacle_demo",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-m",
+        "hocbf",
+        "demo",
+        "--output",
+        "single_obstacle",
+        "--no-animation"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "legacy_command_smoke",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-m",
+        "hocbf",
+        "run",
+        "--model",
+        "dynamic_unicycle",
+        "--steps",
+        "5",
+        "--output",
+        "legacy_smoke"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "private_source_guard",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-m",
+        "hocbf",
+        "original",
+        "--suite",
+        "all",
+        "--output",
+        "original"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1
+    },
+    {
+      "name": "installed_metadata",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-c",
+        "import json,sys,importlib.metadata as m,hocbf; print(json.dumps({\"python\":sys.version,\"module_path\":hocbf.__file__,\"versions\":{d.metadata[\"Name\"]:d.version for d in m.distributions()}}))"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "regression_tests",
+      "command": [
+        "<repository>/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "readme_refresh_build",
+      "command": [
+        "uv",
+        "build",
+        "--out-dir",
+        "dist"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "readme_refresh_create_environment",
+      "command": [
+        "uv",
+        "venv",
+        "--python",
+        "3.12",
+        "<clean-temp>/env"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "readme_refresh_install_wheel",
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "<clean-temp>/env/bin/python",
+        "-r",
+        "<repository>/requirements-tested.txt",
+        "<repository>/dist/hocbf_python-0.1.0-py3-none-any.whl"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "readme_refresh_demo_help",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-m",
+        "hocbf",
+        "demo",
+        "--help"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "readme_refresh_installed_metadata",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-c",
+        "import json,sys,importlib.metadata as m,hocbf;print(json.dumps({\"python\":sys.version,\"module_path\":hocbf.__file__,\"versions\":{d.metadata[\"Name\"]:d.version for d in m.distributions()}}))"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "direct_presentation_build",
+      "command": [
+        "uv",
+        "build",
+        "--out-dir",
+        "dist"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "direct_create_environment",
+      "command": [
+        "uv",
+        "venv",
+        "--python",
+        "3.12",
+        "<clean-temp>/env"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "direct_install_current_wheel",
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "<clean-temp>/env/bin/python",
+        "-r",
+        "<repository>/requirements-tested.txt",
+        "<repository>/dist/hocbf_python-0.1.0-py3-none-any.whl"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "all_four_no_waypoint_models",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-m",
+        "hocbf",
+        "demo",
+        "--no-animation",
+        "--output",
+        "direct",
+        "--guidance",
+        "direct"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "direct_trajectory_equality",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-c",
+        "from pathlib import Path\nimport numpy as np\nroot=Path('<repository>/evidence/single_obstacle_direct')\nfor kind in ['single_integrator', 'double_integrator', 'kinematic_unicycle', 'dynamic_unicycle']:\n with np.load(root/kind/'trajectory.npz',allow_pickle=False) as expected,np.load(Path('direct')/kind/'trajectory.npz',allow_pickle=False) as actual:\n  assert set(expected.files)==set(actual.files)\n  for key in expected.files:np.testing.assert_allclose(actual[key],expected[key],rtol=1e-10,atol=1e-12)\nprint('All four no-waypoint trajectories match the displayed records.')"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "direct_installed_metadata",
+      "command": [
+        "<clean-temp>/env/bin/python",
+        "-c",
+        "import json,sys,importlib.metadata as m,hocbf;print(json.dumps({\"python\":sys.version,\"module_path\":hocbf.__file__,\"versions\":{d.metadata[\"Name\"]:d.version for d in m.distributions()}}))"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    }
+  ],
+  "environment": {
+    "python": "3.12.15 (main, Oct  1 2026, 20:49:34) [Clang 22.1.3 ]",
+    "module_path": "<clean-temp>/env/lib/python3.12/site-packages/hocbf/__init__.py",
+    "versions": {
+      "kiwisolver": "1.5.1",
+      "packaging": "26.3",
+      "numpy": "2.5.4",
+      "pycparser": "3.12",
+      "pillow": "13.0.0",
+      "contourpy": "1.4.0",
+      "clarabel": "0.11.1",
+      "matplotlib": "3.11.2",
+      "cffi": "2.1.1",
+      "casadi": "3.8.2",
+      "hocbf-python": "0.1.0",
+      "cycler": "0.12.1",
+      "fonttools": "4.68.0",
+      "tzdata": "2026.6",
+      "python-dateutil": "4.0.0",
+      "pyparsing": "3.3.3",
+      "scipy": "1.18.1"
+    }
+  },
+  "equation_verification": {
+    "passed": true,
+    "checks": 106,
+    "scope": "Equations, model contracts and independent numerical solver checks; not universal closed-loop safety or exact author figure reproduction."
+  },
+  "single_obstacle_execution": [
+    {
+      "scenario": "single_obstacle",
+      "method": "hocbf",
+      "model": "double_integrator",
+      "model_extension": true,
+      "guidance": "direct_goal",
+      "initial": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        0.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.15
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "offset": 0.15,
+      "dt": 0.05,
+      "requested_steps": 800,
+      "executed_steps": 190,
+      "duration": 9.5,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.03200401641843125,
+      "minimum_sampled_clearance": 0.054303201776668086,
+      "collision_sampled": false,
+      "settled_dwell": 0.49999999999999994,
+      "required_settled_dwell": 0.5,
+      "maximum_lateral_excursion": 0.35442956704381345,
+      "filter_intervention_steps": 85,
+      "solver_fallbacks": 0,
+      "input_semantics": "held physical control",
+      "model_parameters": {
+        "vmax": 0.7,
+        "wmax": 1.8,
+        "amax": 0.9,
+        "alphamax": 1.5,
+        "offset": 0.15
+      },
+      "controller_parameters": {
+        "gains": [
+          1.5,
+          1.3
+        ]
+      },
+      "nominal_tracking": "unchanged Model.nominal",
+      "waypoint_guidance": null,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or continuous-time safety proof",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "source_sha256": {
+        "src/hocbf/single_obstacle.py": "490c2b6e24c7fb000e74110ede28e393e3778466cd9f80f4f19129ae28891ee2",
+        "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "src/hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa"
+      }
+    },
+    {
+      "scenario": "single_obstacle",
+      "method": "hocbf",
+      "model": "dynamic_unicycle",
+      "model_extension": true,
+      "guidance": "one_waypoint",
+      "initial": [
+        -0.15,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        0.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.15
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "offset": 0.15,
+      "dt": 0.05,
+      "requested_steps": 800,
+      "executed_steps": 212,
+      "duration": 10.600000000000001,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.029616772797286382,
+      "minimum_sampled_clearance": 0.22675602145694512,
+      "collision_sampled": false,
+      "settled_dwell": 0.49999999999999994,
+      "required_settled_dwell": 0.5,
+      "maximum_lateral_excursion": 0.664196384843753,
+      "filter_intervention_steps": 43,
+      "solver_fallbacks": 0,
+      "input_semantics": "held physical control",
+      "model_parameters": {
+        "vmax": 0.7,
+        "wmax": 1.8,
+        "amax": 0.9,
+        "alphamax": 1.5,
+        "offset": 0.15
+      },
+      "controller_parameters": {
+        "gains": [
+          1.5,
+          1.3
+        ]
+      },
+      "nominal_tracking": "q=0.7*(target-center); inverse offset-point velocity; dynamic velocity tracking gains (3,4)",
+      "waypoint_guidance": {
+        "waypoint": [
+          2.5,
+          -0.7
+        ],
+        "activate_at_x": 0.8,
+        "switch_to_goal_distance": 0.2
+      },
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or continuous-time safety proof",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "source_sha256": {
+        "src/hocbf/single_obstacle.py": "490c2b6e24c7fb000e74110ede28e393e3778466cd9f80f4f19129ae28891ee2",
+        "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "src/hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa"
+      }
+    },
+    {
+      "scenario": "single_obstacle",
+      "method": "hocbf",
+      "model": "kinematic_unicycle",
+      "model_extension": true,
+      "guidance": "one_waypoint",
+      "initial": [
+        -0.15,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        0.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.15
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "offset": 0.15,
+      "dt": 0.05,
+      "requested_steps": 800,
+      "executed_steps": 188,
+      "duration": 9.4,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.07770601606236789,
+      "minimum_sampled_clearance": 0.1551157103722835,
+      "collision_sampled": false,
+      "settled_dwell": 0.49999999999999994,
+      "required_settled_dwell": 0.5,
+      "maximum_lateral_excursion": 0.6285381709124994,
+      "filter_intervention_steps": 15,
+      "solver_fallbacks": 0,
+      "input_semantics": "held physical control",
+      "model_parameters": {
+        "vmax": 0.7,
+        "wmax": 1.8,
+        "amax": 0.9,
+        "alphamax": 1.5,
+        "offset": 0.15
+      },
+      "controller_parameters": {
+        "gains": [
+          1.5
+        ]
+      },
+      "nominal_tracking": "q=0.7*(target-center); inverse offset-point velocity; dynamic velocity tracking gains (3,4)",
+      "waypoint_guidance": {
+        "waypoint": [
+          2.5,
+          -0.7
+        ],
+        "activate_at_x": 0.8,
+        "switch_to_goal_distance": 0.2
+      },
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or continuous-time safety proof",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "source_sha256": {
+        "src/hocbf/single_obstacle.py": "490c2b6e24c7fb000e74110ede28e393e3778466cd9f80f4f19129ae28891ee2",
+        "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "src/hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa"
+      }
+    },
+    {
+      "scenario": "single_obstacle",
+      "method": "hocbf",
+      "model": "single_integrator",
+      "model_extension": true,
+      "guidance": "direct_goal",
+      "initial": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        0.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.15
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "offset": 0.15,
+      "dt": 0.05,
+      "requested_steps": 800,
+      "executed_steps": 175,
+      "duration": 8.75,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.05395492990755177,
+      "minimum_sampled_clearance": 0.021051922635414777,
+      "collision_sampled": false,
+      "settled_dwell": 0.49999999999999994,
+      "required_settled_dwell": 0.5,
+      "maximum_lateral_excursion": 0.32259879595770236,
+      "filter_intervention_steps": 61,
+      "solver_fallbacks": 0,
+      "input_semantics": "held physical control",
+      "model_parameters": {
+        "vmax": 0.7,
+        "wmax": 1.8,
+        "amax": 0.9,
+        "alphamax": 1.5,
+        "offset": 0.15
+      },
+      "controller_parameters": {
+        "gains": [
+          1.5
+        ]
+      },
+      "nominal_tracking": "unchanged Model.nominal",
+      "waypoint_guidance": null,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or continuous-time safety proof",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "source_sha256": {
+        "src/hocbf/single_obstacle.py": "490c2b6e24c7fb000e74110ede28e393e3778466cd9f80f4f19129ae28891ee2",
+        "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "src/hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa"
+      }
+    }
+  ],
+  "regression_tests_passed": 7,
+  "package_audit": {
+    "hocbf_python-0.1.0-py3-none-any.whl": {
+      "sha256": "ba011f33b2ab51d882567e258303c608cd1e91d2dea8f0cee08e03423153bc07",
+      "bytes": 1394108,
+      "files": 18,
+      "excluded_directory_violations": [],
+      "private_absolute_path_violations": [],
+      "all_public_source_and_data_match_checkout": true,
+      "package_file_sha256": {
+        "hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "hocbf/single_obstacle.py": "a6a8d60c5ab15196cf51ee11abacbe435dac3214fd6f6f79d2c1b3d83b00127f",
+        "hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "hocbf/native_runner.py": "64c0ae706ee7384d5302f6691b088b7efcc449196e5ed47fe55a8199ffb88920",
+        "hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "hocbf/__init__.py": "5827e3bc790306205024126c0a4c5555ed05bc68796295e51cc11cec2e22d273",
+        "hocbf/upstream.py": "3252062eda6858137e47f3453038be6abb62d2b7e3f6850c34fcf293c5c578f5",
+        "hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa",
+        "hocbf/validation.py": "dd0a779d565c857b4a7d9adc7c83907d019da83bcc6f6359d5586f93b592fb8b",
+        "hocbf/data/original_qps.json.gz": "9cbe89b5638eddfe56227eef133a29e824e39068e3c9120a5de8925e9071e2fb",
+        "hocbf/data/original_trajectories.npz": "c5a08c0a7a91ebe1b23688e257d66a69673d993c1183125c98eecd191f377666",
+        "hocbf/data/upstream.json": "0a3cd2a1ef9ef3a021a810df852699d5d25a043d3989a65d7bd8577ca3333d9b"
+      }
+    },
+    "hocbf_python-0.1.0.tar.gz": {
+      "sha256": "98e7ee05eebc1e93afef381b8719ac791635d728cc2ea5f415fd963f9df3b69a",
+      "bytes": 4144802,
+      "files": 100,
+      "excluded_directory_violations": [],
+      "private_absolute_path_violations": []
+    }
+  },
+  "hocbf_private_source_guard_verified": true,
+  "temporary_logs_retained": true,
+  "numerical_verification_created_at_utc": "2026-11-03T12:37:56.211114+00:00",
+  "documentation_refresh": {
+    "prior_tested_wheel_sha256": "e4fd830bca54351a64040b8de30134c5a8abf0c496d473823a29ee2a83f23ed6",
+    "wheel_files_changed": [
+      "hocbf/single_obstacle.py",
+      "hocbf_python-0.1.0.dist-info/METADATA",
+      "hocbf_python-0.1.0.dist-info/RECORD"
+    ],
+    "computational_code_unchanged": true,
+    "README_metadata_matches_checkout": true,
+    "regression_tests_rerun_by_release_script": false,
+    "all_four_direct_models_rerun_from_current_wheel": true
+  },
+  "no_waypoint_execution": [
+    {
+      "scenario": "single_obstacle",
+      "method": "hocbf",
+      "model": "single_integrator",
+      "model_extension": true,
+      "guidance": "direct_goal",
+      "initial": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        0.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.15
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "offset": 0.15,
+      "dt": 0.05,
+      "requested_steps": 800,
+      "executed_steps": 175,
+      "duration": 8.75,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.05395492990755177,
+      "minimum_sampled_clearance": 0.021051922635414777,
+      "collision_sampled": false,
+      "settled_dwell": 0.49999999999999994,
+      "required_settled_dwell": 0.5,
+      "maximum_lateral_excursion": 0.32259879595770236,
+      "filter_intervention_steps": 61,
+      "solver_fallbacks": 0,
+      "input_semantics": "held physical control",
+      "model_parameters": {
+        "vmax": 0.7,
+        "wmax": 1.8,
+        "amax": 0.9,
+        "alphamax": 1.5,
+        "offset": 0.15
+      },
+      "controller_parameters": {
+        "gains": [
+          1.5
+        ]
+      },
+      "nominal_tracking": "unchanged Model.nominal",
+      "waypoint_guidance": null,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or continuous-time safety proof",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "source_sha256": {
+        "src/hocbf/single_obstacle.py": "a6a8d60c5ab15196cf51ee11abacbe435dac3214fd6f6f79d2c1b3d83b00127f",
+        "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "src/hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa"
+      }
+    },
+    {
+      "scenario": "single_obstacle",
+      "method": "hocbf",
+      "model": "double_integrator",
+      "model_extension": true,
+      "guidance": "direct_goal",
+      "initial": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        0.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.15
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "offset": 0.15,
+      "dt": 0.05,
+      "requested_steps": 800,
+      "executed_steps": 190,
+      "duration": 9.5,
+      "outcome": "goal_complete",
+      "final_goal_error": 0.03200401641843125,
+      "minimum_sampled_clearance": 0.054303201776668086,
+      "collision_sampled": false,
+      "settled_dwell": 0.49999999999999994,
+      "required_settled_dwell": 0.5,
+      "maximum_lateral_excursion": 0.35442956704381345,
+      "filter_intervention_steps": 85,
+      "solver_fallbacks": 0,
+      "input_semantics": "held physical control",
+      "model_parameters": {
+        "vmax": 0.7,
+        "wmax": 1.8,
+        "amax": 0.9,
+        "alphamax": 1.5,
+        "offset": 0.15
+      },
+      "controller_parameters": {
+        "gains": [
+          1.5,
+          1.3
+        ]
+      },
+      "nominal_tracking": "unchanged Model.nominal",
+      "waypoint_guidance": null,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or continuous-time safety proof",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "source_sha256": {
+        "src/hocbf/single_obstacle.py": "a6a8d60c5ab15196cf51ee11abacbe435dac3214fd6f6f79d2c1b3d83b00127f",
+        "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "src/hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa"
+      }
+    },
+    {
+      "scenario": "single_obstacle",
+      "method": "hocbf",
+      "model": "kinematic_unicycle",
+      "model_extension": true,
+      "guidance": "direct_goal",
+      "initial": [
+        -0.15,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        0.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.15
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "offset": 0.15,
+      "dt": 0.05,
+      "requested_steps": 800,
+      "executed_steps": 800,
+      "duration": 40.0,
+      "outcome": "timeout",
+      "final_goal_error": 2.423914464231012,
+      "minimum_sampled_clearance": 4.996003610813204e-16,
+      "collision_sampled": false,
+      "settled_dwell": 0.0,
+      "required_settled_dwell": 0.5,
+      "maximum_lateral_excursion": 0.000985750836164796,
+      "filter_intervention_steps": 774,
+      "solver_fallbacks": 0,
+      "input_semantics": "held physical control",
+      "model_parameters": {
+        "vmax": 0.7,
+        "wmax": 1.8,
+        "amax": 0.9,
+        "alphamax": 1.5,
+        "offset": 0.15
+      },
+      "controller_parameters": {
+        "gains": [
+          1.5
+        ]
+      },
+      "nominal_tracking": "q=0.7*(target-center); inverse offset-point velocity; dynamic velocity tracking gains (3,4)",
+      "waypoint_guidance": null,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or continuous-time safety proof",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "source_sha256": {
+        "src/hocbf/single_obstacle.py": "a6a8d60c5ab15196cf51ee11abacbe435dac3214fd6f6f79d2c1b3d83b00127f",
+        "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "src/hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa"
+      }
+    },
+    {
+      "scenario": "single_obstacle",
+      "method": "hocbf",
+      "model": "dynamic_unicycle",
+      "model_extension": true,
+      "guidance": "direct_goal",
+      "initial": [
+        -0.15,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        0.0
+      ],
+      "obstacles": [
+        [
+          2.0,
+          0.15
+        ]
+      ],
+      "inflated_radii": [
+        0.45
+      ],
+      "offset": 0.15,
+      "dt": 0.05,
+      "requested_steps": 800,
+      "executed_steps": 800,
+      "duration": 40.0,
+      "outcome": "timeout",
+      "final_goal_error": 2.42406748676761,
+      "minimum_sampled_clearance": 5.551115123125783e-16,
+      "collision_sampled": false,
+      "settled_dwell": 0.0,
+      "required_settled_dwell": 0.5,
+      "maximum_lateral_excursion": 0.0005550416400388282,
+      "filter_intervention_steps": 792,
+      "solver_fallbacks": 0,
+      "input_semantics": "held physical control",
+      "model_parameters": {
+        "vmax": 0.7,
+        "wmax": 1.8,
+        "amax": 0.9,
+        "alphamax": 1.5,
+        "offset": 0.15
+      },
+      "controller_parameters": {
+        "gains": [
+          1.5,
+          1.3
+        ]
+      },
+      "nominal_tracking": "q=0.7*(target-center); inverse offset-point velocity; dynamic velocity tracking gains (3,4)",
+      "waypoint_guidance": null,
+      "verification": "21 independent DOP853 samples per hold; no interval enclosure or continuous-time safety proof",
+      "python": "3.12.15",
+      "platform": "macOS-27.0.1-arm64-arm-64bit",
+      "source_sha256": {
+        "src/hocbf/single_obstacle.py": "a6a8d60c5ab15196cf51ee11abacbe435dac3214fd6f6f79d2c1b3d83b00127f",
+        "src/hocbf/controller.py": "dad45bd1bb77c1234acf188e87936b5f177b10ab8f1cce5e4cc5e6cf34c9f98b",
+        "src/hocbf/models.py": "56cdee522bf2f8ae8d02e4bebaa79eb1de2e8e8c7c32dcced563d4690604d3e9",
+        "src/hocbf/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f",
+        "src/hocbf/simulation.py": "745adebd7acd683c2b653fb991ec7dab37e43c435a52ee890d2ed2d6af476119",
+        "src/hocbf/__main__.py": "e3f0a99e8034b85a80594f9af6f79453fd77ef17db6ec48ed1886a2f4fdf2ffa"
+      }
+    }
+  ],
+  "no_waypoint_trajectory_arrays_match_bundled_evidence": true
+}

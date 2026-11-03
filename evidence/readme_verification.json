@@ -1,0 +1,152 @@
+{
+  "created_at_utc": "2026-11-03T12:59:07.193122+00:00",
+  "passed": true,
+  "scope": "Unified EN/ZH README outlines, two inline animations, default and no-waypoint results for every model. MPC no-waypoint section reuses its existing direct-goal records.",
+  "english_outline": [
+    "## Reproduction scope",
+    "## Install and run",
+    "## Single-obstacle demo",
+    "### Scenario",
+    "### Navigation and waypoint usage",
+    "### Animation",
+    "### Trajectories",
+    "### Results",
+    "### Reproduce the demo",
+    "### Parameters and limitations",
+    "### Direct-goal results (no waypoints)",
+    "## Original problem entry",
+    "## Other examples and verification",
+    "## Author and maintainer",
+    "## Publication preparation",
+    "## License and attribution"
+  ],
+  "chinese_outline": [
+    "## \u590d\u73b0\u8303\u56f4",
+    "## \u5b89\u88c5\u4e0e\u8fd0\u884c",
+    "## \u5355\u969c\u788d\u7269 demo",
+    "### \u573a\u666f",
+    "### \u5bfc\u822a\u4e0e waypoint \u4f7f\u7528",
+    "### \u52a8\u753b",
+    "### \u8f68\u8ff9",
+    "### \u5b9e\u6d4b\u7ed3\u679c",
+    "### \u590d\u73b0 demo",
+    "### \u53c2\u6570\u4e0e\u9002\u7528\u8fb9\u754c",
+    "### \u65e0 waypoint \u7684\u9010\u6a21\u578b\u7ed3\u679c",
+    "## \u539f\u6587\u95ee\u9898\u5165\u53e3",
+    "## \u5176\u4ed6\u793a\u4f8b\u4e0e\u9a8c\u8bc1",
+    "## \u4f5c\u8005\u4e0e\u7ef4\u62a4\u8005",
+    "## \u53d1\u5e03\u51c6\u5907",
+    "## \u8bb8\u53ef\u4e0e\u5f52\u5c5e"
+  ],
+  "inline_animations_per_language": 2,
+  "media": [
+    {
+      "mode": "default",
+      "path": "evidence/single_obstacle/animation.gif",
+      "sha256": "7015f9b55146b09dcf3112c0d15ba45e17426e93cba42b51597f35c9b3558894",
+      "frames": 107,
+      "loop": 0,
+      "width": 810,
+      "height": 504
+    },
+    {
+      "mode": "no_waypoints",
+      "path": "evidence/single_obstacle_direct/animation.gif",
+      "sha256": "4eb0fd5919dd4d0701f809c591f58523404a006df8458c6a6ef1c1985f74e74a",
+      "frames": 141,
+      "loop": 0,
+      "width": 810,
+      "height": 504
+    }
+  ],
+  "waypoint_navigation_by_model": {
+    "single_integrator": false,
+    "double_integrator": false,
+    "kinematic_unicycle": true,
+    "dynamic_unicycle": true
+  },
+  "no_waypoint_navigation_by_model": {
+    "single_integrator": false,
+    "double_integrator": false,
+    "kinematic_unicycle": false,
+    "dynamic_unicycle": false
+  },
+  "rendered_result_records": [
+    {
+      "mode": "default",
+      "model": "single_integrator",
+      "outcome": "goal_complete",
+      "time": 8.75,
+      "final_goal_error": 0.05395492990755177,
+      "minimum_sampled_clearance": 0.021051922635414777,
+      "solver_fallbacks": 0
+    },
+    {
+      "mode": "default",
+      "model": "double_integrator",
+      "outcome": "goal_complete",
+      "time": 9.5,
+      "final_goal_error": 0.03200401641843125,
+      "minimum_sampled_clearance": 0.054303201776668086,
+      "solver_fallbacks": 0
+    },
+    {
+      "mode": "default",
+      "model": "kinematic_unicycle",
+      "outcome": "goal_complete",
+      "time": 9.4,
+      "final_goal_error": 0.07770601606236789,
+      "minimum_sampled_clearance": 0.1551157103722835,
+      "solver_fallbacks": 0
+    },
+    {
+      "mode": "default",
+      "model": "dynamic_unicycle",
+      "outcome": "goal_complete",
+      "time": 10.600000000000001,
+      "final_goal_error": 0.029616772797286382,
+      "minimum_sampled_clearance": 0.22675602145694512,
+      "solver_fallbacks": 0
+    },
+    {
+      "mode": "no_waypoints",
+      "model": "single_integrator",
+      "outcome": "goal_complete",
+      "time": 8.75,
+      "final_goal_error": 0.05395492990755177,
+      "minimum_sampled_clearance": 0.021051922635414777,
+      "solver_fallbacks": 0
+    },
+    {
+      "mode": "no_waypoints",
+      "model": "double_integrator",
+      "outcome": "goal_complete",
+      "time": 9.5,
+      "final_goal_error": 0.03200401641843125,
+      "minimum_sampled_clearance": 0.054303201776668086,
+      "solver_fallbacks": 0
+    },
+    {
+      "mode": "no_waypoints",
+      "model": "kinematic_unicycle",
+      "outcome": "timeout",
+      "time": 40.0,
+      "final_goal_error": 2.423914464231012,
+      "minimum_sampled_clearance": 4.996003610813204e-16,
+      "solver_fallbacks": 0
+    },
+    {
+      "mode": "no_waypoints",
+      "model": "dynamic_unicycle",
+      "outcome": "timeout",
+      "time": 40.0,
+      "final_goal_error": 2.42406748676761,
+      "minimum_sampled_clearance": 5.551115123125783e-16,
+      "solver_fallbacks": 0
+    }
+  ],
+  "README_sha256": {
+    "README.md": "ca3c67668b28ec2c7c6d830a735214bca7b219bdad5e208d8f34754e6c29d793",
+    "README_ZH.md": "4f3121d4e84c379632767a5f1257753258625bc1a09a5cf71d7fe706c8dbe0cf"
+  }
+}

@@ -1,0 +1,3574 @@
+[
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.82
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.0,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.681225
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.05,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.5448999999999997
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.1,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.411025
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.15000000000000002,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.2796000000000003
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.2,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.150625
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.25,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.0241
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.30000000000000004,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.9000250000000003
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.35000000000000003,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.7784000000000004
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.4,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.659225
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.45,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.5425000000000004
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.5,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.4282250000000007
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.55,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.3164000000000002
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.6000000000000001,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.2070250000000002
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.65,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.1001000000000007
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.7000000000000001,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.995625
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.75,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.8936000000000002
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.8,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.7940250000000009
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.8500000000000001,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.6969000000000003
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.9,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.6022249999999998
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 0.9500000000000001,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.5100000000000002
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 1.0,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.4202250000000003
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 1.05,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.3329000000000004
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0
+    ],
+    "time": 1.1,
+    "guidance_phase": "approach",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.2480250000000006
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -1.8
+    ],
+    "time": 1.1500000000000001,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.171861843213578
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -1.8
+    ],
+    "time": 1.2000000000000002,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.1029740451404533
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -1.7017654749256665
+    ],
+    "time": 1.25,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.041124044935799
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -0.9605592859329456
+    ],
+    "time": 1.3,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.980206673880241
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -0.546616063577056
+    ],
+    "time": 1.35,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.9203058499228022
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -0.3148973230911386
+    ],
+    "time": 1.4000000000000001,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.8618906197383017
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -0.18386140099828197
+    ],
+    "time": 1.4500000000000002,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.8053368047794017
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -0.10883087489490222
+    ],
+    "time": 1.5,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.7508859350320461
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -0.06530300063292657
+    ],
+    "time": 1.55,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6986825882627691
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -0.03971678304093322
+    ],
+    "time": 1.6,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6488111201983742
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": -1.1102230246251565e-16,
+    "nominal": [
+      0.7,
+      -0.024479571380985703
+    ],
+    "time": 1.6500000000000001,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6013974038022508
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      -0.015232667374977712
+    ],
+    "time": 1.7000000000000002,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.557473428823419
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": -1.1102230246251565e-16,
+    "nominal": [
+      0.7,
+      -0.008730947954586806
+    ],
+    "time": 1.75,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.5167871680380197
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": -1.1102230246251565e-16,
+    "nominal": [
+      0.7,
+      -0.0038587114448644195
+    ],
+    "time": 1.8,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.47910391344654946
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      3.470705012202184e-05
+    ],
+    "time": 1.85,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.44420569567588053
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.0033303035216088648
+    ],
+    "time": 1.9000000000000001,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4118904924826602
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.006248816594478143
+    ],
+    "time": 1.9500000000000002,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3819713767301437
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.008911988029428608
+    ],
+    "time": 2.0,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3542756910038284
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 1.1102230246251565e-16,
+    "nominal": [
+      0.7,
+      0.011375956494279102
+    ],
+    "time": 2.0500000000000003,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3286443084861307
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": -5.551115123125783e-17,
+    "nominal": [
+      0.7,
+      0.013647459574169057
+    ],
+    "time": 2.1,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3049310347755618
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.015687867091082424
+    ],
+    "time": 2.15,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.28300222011935355
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": -5.551115123125783e-17,
+    "nominal": [
+      0.7,
+      0.01740610791594377
+    ],
+    "time": 2.2,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.2627366917858643
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": -5.551115123125783e-17,
+    "nominal": [
+      0.7,
+      0.018637597174090786
+    ],
+    "time": 2.25,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.24402619949545779
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.01910024276789916
+    ],
+    "time": 2.3000000000000003,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.22677673030464301
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.01830638314504122
+    ],
+    "time": 2.35,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.21091135939666616
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.00286967959371931,
+    "nominal": [
+      0.6971303204062806,
+      0.015380616981950554
+    ],
+    "time": 2.4000000000000004,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.1969642311667587
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.027267701371067488,
+    "nominal": [
+      0.6727322986289325,
+      0.011330739811109547
+    ],
+    "time": 2.45,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.18581383562914616
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.05081249248319042,
+    "nominal": [
+      0.6491875075168095,
+      0.008437775611243963
+    ],
+    "time": 2.5,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.17720239256781245
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.07353358772079954,
+    "nominal": [
+      0.6264664122792004,
+      0.006348506511720994
+    ],
+    "time": 2.5500000000000003,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.17089251118946702
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.09545964635670523,
+    "nominal": [
+      0.6045403536432947,
+      0.0048237996927696924
+    ],
+    "time": 2.6,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.16666556685632927
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.11661840464915785,
+    "nominal": [
+      0.5833815953508421,
+      0.003699917109308652
+    ],
+    "time": 2.6500000000000004,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.16432024313448673
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.1370366694789762,
+    "nominal": [
+      0.5629633305210238,
+      0.0028635231406972292
+    ],
+    "time": 2.7,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.1636712087988229
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.15674033132808507,
+    "nominal": [
+      0.5432596686719149,
+      0.0022353506368734863
+    ],
+    "time": 2.75,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.1645479087722816
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.1757543862650951,
+    "nominal": [
+      0.5242456137349049,
+      0.001759405261937963
+    ],
+    "time": 2.8000000000000003,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.16679345380817712
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.19410296194064192,
+    "nominal": [
+      0.505897038059358,
+      0.00139575301051705
+    ],
+    "time": 2.85,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.1702635974537809
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.21180934513502914,
+    "nominal": [
+      0.4881906548649708,
+      0.0011156515066825432
+    ],
+    "time": 2.9000000000000004,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.17482579128475095
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.22889600963426887,
+    "nominal": [
+      0.4711039903657311,
+      0.0008982306178415926
+    ],
+    "time": 2.95,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.1803583110616621
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.24538464382140368,
+    "nominal": [
+      0.4546153561785963,
+      0.0007282076360894582
+    ],
+    "time": 3.0,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.18674944762555018
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2612961776779367,
+    "nominal": [
+      0.43870382232206323,
+      0.0005943000609363407
+    ],
+    "time": 3.0500000000000003,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.19389675719761673
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2766508090480452,
+    "nominal": [
+      0.4233491909519548,
+      0.0004881131990761937
+    ],
+    "time": 3.1,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.2017063663891236
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2914680291003359,
+    "nominal": [
+      0.40853197089966403,
+      0.00040335387457753524
+    ],
+    "time": 3.1500000000000004,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.21009232772977676
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.30576664696508316,
+    "nominal": [
+      0.3942333530349168,
+      0.00033527007166726336
+    ],
+    "time": 3.2,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.21897602193002874
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.31956481354776,
+    "nominal": [
+      0.38043518645223995,
+      0.00028024842303187025
+    ],
+    "time": 3.25,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.22828560343264653
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.332880044531766,
+    "nominal": [
+      0.36711995546823395,
+      0.00023552286994910077
+    ],
+    "time": 3.3000000000000003,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.23795548609983647
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.3457292425895608,
+    "nominal": [
+      0.3542707574104392,
+      0.0001989622343255097
+    ],
+    "time": 3.35,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.24792586613624867
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.34187128117544746,
+    "nominal": [
+      0.34187128117544746,
+      0.00016891422689032284
+    ],
+    "time": 3.4000000000000004,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.2581422795735263
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.32990578653250135,
+    "nominal": [
+      0.32990578653250135,
+      0.0001440901116096331
+    ],
+    "time": 3.45,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.2685551918443535
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.31835908414839154,
+    "nominal": [
+      0.31835908414839154,
+      0.00012347886477442893
+    ],
+    "time": 3.5,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.27911961715723166
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.3072165163095526,
+    "nominal": [
+      0.3072165163095526,
+      0.00010628287701143954
+    ],
+    "time": 3.5500000000000003,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.2897947655503794
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2964639383176687,
+    "nominal": [
+      0.2964639383176687,
+      9.186949373037509e-05
+    ],
+    "time": 3.6,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3005437156564179
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2860877005356514,
+    "nominal": [
+      0.2860877005356514,
+      7.973427409444882e-05
+    ],
+    "time": 3.6500000000000004,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.31133311135053077
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.27607463106150376,
+    "nominal": [
+      0.27607463106150376,
+      6.947297359523782e-05
+    ],
+    "time": 3.7,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3221328805849428
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.26641201900827016,
+    "nominal": [
+      0.26641201900827016,
+      6.07600594001075e-05
+    ],
+    "time": 3.75,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.33291597483291047
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.25708759836896933,
+    "nominal": [
+      0.25708759836896933,
+      5.3332146012866996e-05
+    ],
+    "time": 3.8000000000000003,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3436581276768742
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2480895324461113,
+    "nominal": [
+      0.2480895324461113,
+      4.697515748580683e-05
+    ],
+    "time": 3.85,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3543376311787805
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.23940639882608136,
+    "nominal": [
+      0.23940639882608136,
+      4.1514327282406636e-05
+    ],
+    "time": 3.9000000000000004,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.36493512876647427
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.23102717487935848,
+    "nominal": [
+      0.23102717487935848,
+      3.6806370270388765e-05
+    ],
+    "time": 3.95,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.37543342345913133
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.22294122376817704,
+    "nominal": [
+      0.22294122376817704,
+      3.273332581599231e-05
+    ],
+    "time": 4.0,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3858173003374311
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2151382809438912,
+    "nominal": [
+      0.2151382809438912,
+      2.9197692885674087e-05
+    ],
+    "time": 4.05,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.3960733622410674
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.20760844111691,
+    "nominal": [
+      0.20760844111691,
+      2.6118568807464992e-05
+    ],
+    "time": 4.1000000000000005,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4061898777476719
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.20034214568267014,
+    "nominal": [
+      0.20034214568267014,
+      2.342857132103804e-05
+    ],
+    "time": 4.15,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4161566405537024
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.19333017058768573,
+    "nominal": [
+      0.19333017058768573,
+      2.1071374669094183e-05
+    ],
+    "time": 4.2,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4259648394396389
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.18656361462028206,
+    "nominal": [
+      0.18656361462028206,
+      1.8999729174407065e-05
+    ],
+    "time": 4.25,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4356069380593274
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.18003388811114887,
+    "nominal": [
+      0.18003388811114887,
+      1.7173863108195984e-05
+    ],
+    "time": 4.3,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4450765638467855
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.17373270202936647,
+    "nominal": [
+      0.17373270202936647,
+      1.556018806789239e-05
+    ],
+    "time": 4.3500000000000005,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.45436840538350043
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.16765205746007072,
+    "nominal": [
+      0.16765205746007072,
+      1.4130246308724503e-05
+    ],
+    "time": 4.4,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4634781176155306
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.16178423545039813,
+    "nominal": [
+      0.16178423545039813,
+      1.2859851694450402e-05
+    ],
+    "time": 4.45,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4724022343527523
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.15612178721082004,
+    "nominal": [
+      0.15612178721082004,
+      1.1728386168456211e-05
+    ],
+    "time": 4.5,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.48113808752262743
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.15065752465942833,
+    "nominal": [
+      0.15065752465942833,
+      1.0718221612517528e-05
+    ],
+    "time": 4.55,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.48968373268810317
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.14538451129717359,
+    "nominal": [
+      0.14538451129717359,
+      9.81424316504979e-06
+    ],
+    "time": 4.6000000000000005,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.4980378803739135
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.14029605340246493,
+    "nominal": [
+      0.14029605340246493,
+      9.003454899125796e-06
+    ],
+    "time": 4.65,
+    "guidance_phase": "bypass",
+    "tracking_target": [
+      2.5,
+      -0.7
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.5061998327777574
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      1.8
+    ],
+    "time": 4.7,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.5295892969942243
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      1.8
+    ],
+    "time": 4.75,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.5503711989885381
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      1.8
+    ],
+    "time": 4.800000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.5683773189489212
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      1.8
+    ],
+    "time": 4.8500000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.5834619057255767
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      1.8
+    ],
+    "time": 4.9,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.5955028566183277
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      1.8
+    ],
+    "time": 4.95,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6044027057410682
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      1.532615324946857
+    ],
+    "time": 5.0,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6137506521665206
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.9314392355410022
+    ],
+    "time": 5.050000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6291131717122714
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.5707861799318337
+    ],
+    "time": 5.1000000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6491275215943292
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.35377759258526414
+    ],
+    "time": 5.15,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6729190456801123
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.22200730548045317
+    ],
+    "time": 5.2,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.6999573153943803
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.14109199824431817
+    ],
+    "time": 5.25,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.729925574421005
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.09081058934807151
+    ],
+    "time": 5.300000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.7626348516705648
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.059187199456454495
+    ],
+    "time": 5.3500000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.7979718966660724
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.03905883276772475
+    ],
+    "time": 5.4,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.8358683754456414
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.026094497679158835
+    ],
+    "time": 5.45,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.8762827368173006
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.01764630711728129
+    ],
+    "time": 5.5,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.9191895115001704
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.012077343232927603
+    ],
+    "time": 5.550000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      0.9645729619955473
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.008364503827198815
+    ],
+    "time": 5.6000000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.0124232876103707
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.005861380688703862
+    ],
+    "time": 5.65,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.062734338898645
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.00415519803125782
+    ],
+    "time": 5.7,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.1155022300781967
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.002979600041035739
+    ],
+    "time": 5.75,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.1707244897668687
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0,
+    "nominal": [
+      0.7,
+      0.002160938201457204
+    ],
+    "time": 5.800000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.2283995369978093
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.017483099662858548,
+    "nominal": [
+      0.6825169003371414,
+      0.0015848559294203333
+    ],
+    "time": 5.8500000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.2869943006556395
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.04137117478397068,
+    "nominal": [
+      0.6586288252160293,
+      0.0011751321791166522
+    ],
+    "time": 5.9,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.3457471949201287
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.06442317461440339,
+    "nominal": [
+      0.6355768253855966,
+      0.0008805254350269243
+    ],
+    "time": 5.95,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.4045006113589316
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.08666835839850995,
+    "nominal": [
+      0.61333164160149,
+      0.0006664244328998444
+    ],
+    "time": 6.0,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.463112966725431
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.10813496291846159,
+    "nominal": [
+      0.5918650370815384,
+      0.0005092374922133214
+    ],
+    "time": 6.050000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.5214574022789078
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.1288502374950471,
+    "nominal": [
+      0.5711497625049529,
+      0.000392705723321618
+    ],
+    "time": 6.1000000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.579420585561666
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.14884047815514556,
+    "nominal": [
+      0.5511595218448544,
+      0.00030550480978515837
+    ],
+    "time": 6.15,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.6369016049017633
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.16813106079551776,
+    "nominal": [
+      0.5318689392044822,
+      0.00023966707410912522
+    ],
+    "time": 6.2,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.693810948522506
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.1867464732821542,
+    "nominal": [
+      0.5132535267178457,
+      0.00018953181926610146
+    ],
+    "time": 6.25,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.7500695612748998
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.20471034647535363,
+    "nominal": [
+      0.4952896535246463,
+      0.00015103970163114305
+    ],
+    "time": 6.300000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.8056079728473309
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.22204548419457226,
+    "nominal": [
+      0.4779545158054277,
+      0.00012125356058249419
+    ],
+    "time": 6.3500000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.8603654919546266
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2387738921481049,
+    "nominal": [
+      0.46122610785189505,
+      9.802985352006892e-05
+    ],
+    "time": 6.4,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.9142894615310388
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.25491680585758436,
+    "nominal": [
+      0.4450831941424156,
+      7.979124729403284e-05
+    ],
+    "time": 6.45,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      1.9673345703877585
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.27049471760915555,
+    "nominal": [
+      0.4295052823908444,
+      6.536780273680431e-05
+    ],
+    "time": 6.5,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.0194622171703442
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.28552740246361624,
+    "nominal": [
+      0.4144725975363837,
+      5.3885099713009886e-05
+    ],
+    "time": 6.550000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.070639922780372
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.3000339433574806,
+    "nominal": [
+      0.39996605664251933,
+      4.4684769874477524e-05
+    ],
+    "time": 6.6000000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.120840787719158
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.31403275532624225,
+    "nominal": [
+      0.3859672446737577,
+      3.7267594812188484e-05
+    ],
+    "time": 6.65,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.170042991076465
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.32754160888025174,
+    "nominal": [
+      0.3724583911197482,
+      3.1252445778599355e-05
+    ],
+    "time": 6.7,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.2182293281284506
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.3405776525626951,
+    "nominal": [
+      0.35942234743730483,
+      2.634643299331829e-05
+    ],
+    "time": 6.75,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.2653867837302
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.3468425652818057,
+    "nominal": [
+      0.3468425652818057,
+      2.232304763899462e-05
+    ],
+    "time": 6.800000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.3115061388916236
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.33470307550040124,
+    "nominal": [
+      0.33470307550040124,
+      1.90060450029154e-05
+    ],
+    "time": 6.8500000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.356581608113251
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.32298846786039936,
+    "nominal": [
+      0.32298846786039936,
+      1.6257480916770373e-05
+    ],
+    "time": 6.9,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.400610505232022
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.3116838714871278,
+    "nominal": [
+      0.3116838714871278,
+      1.3968773509935122e-05
+    ],
+    "time": 6.95,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.4435929356880965
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.30077493598644106,
+    "nominal": [
+      0.30077493598644106,
+      1.2053983375985105e-05
+    ],
+    "time": 7.0,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.4855315132727185
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.29024781322793236,
+    "nominal": [
+      0.29024781322793236,
+      1.0444730891937908e-05
+    ],
+    "time": 7.050000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.526431099555664
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2800891397657196,
+    "nominal": [
+      0.2800891397657196,
+      9.086329312013586e-06
+    ],
+    "time": 7.1000000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.5662985643192537
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2702860198744995,
+    "nominal": [
+      0.2702860198744995,
+      7.93482612772752e-06
+    ],
+    "time": 7.15,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.605142565445298
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.260826009179335,
+    "nominal": [
+      0.260826009179335,
+      6.954726945729295e-06
+    ],
+    "time": 7.2,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.642973346812227
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.25169709885839914,
+    "nominal": [
+      0.25169709885839914,
+      6.117235124003528e-06
+    ],
+    "time": 7.25,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.679802552862765
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.24288770039861934,
+    "nominal": [
+      0.24288770039861934,
+      5.398883310137048e-06
+    ],
+    "time": 7.300000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.715643058598276
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.23438663088487374,
+    "nominal": [
+      0.23438663088487374,
+      4.7804643240242e-06
+    ],
+    "time": 7.3500000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.750508813844971
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.22618309880406465,
+    "nominal": [
+      0.22618309880406465,
+      4.246191879775374e-06
+    ],
+    "time": 7.4,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.78441470071992
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.2182666903460501,
+    "nominal": [
+      0.2182666903460501,
+      3.783038650118087e-06
+    ],
+    "time": 7.45,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.81737640330181
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.21062735618403994,
+    "nominal": [
+      0.21062735618403994,
+      3.380211838118393e-06
+    ],
+    "time": 7.5,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.8494102885828543
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.20325539871767984,
+    "nominal": [
+      0.20325539871767984,
+      3.0287358588713493e-06
+    ],
+    "time": 7.550000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.8805332978447917
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.19614145976262606,
+    "nominal": [
+      0.19614145976262606,
+      2.7211188399767217e-06
+    ],
+    "time": 7.6000000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.9107628476637144
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.18927650867098675,
+    "nominal": [
+      0.18927650867098675,
+      2.4510849984856384e-06
+    ],
+    "time": 7.65,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.940116739805922
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.1826518308675452,
+    "nominal": [
+      0.1826518308675452,
+      2.213359027540089e-06
+    ],
+    "time": 7.7,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.968613079330374
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.17625901678721606,
+    "nominal": [
+      0.17625901678721606,
+      2.00349170101366e-06
+    ],
+    "time": 7.75,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      2.9962702002629698
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.17008995119969245,
+    "nominal": [
+      0.17008995119969245,
+      1.8177182769622362e-06
+    ],
+    "time": 7.800000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.023106598254014
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.16413680290772661,
+    "nominal": [
+      0.16413680290772661,
+      1.6528431244962802e-06
+    ],
+    "time": 7.8500000000000005,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.0491408696730535
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.15839201480597556,
+    "nominal": [
+      0.15839201480597556,
+      1.5061453591721139e-06
+    ],
+    "time": 7.9,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.074391656635169
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.15284829428778288,
+    "nominal": [
+      0.15284829428778288,
+      1.3753014132163641e-06
+    ],
+    "time": 7.95,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.0988775974897638
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.14749860398772371,
+    "nominal": [
+      0.14749860398772371,
+      1.2583212790721425e-06
+    ],
+    "time": 8.0,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.122617282337276
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.14233615284816467,
+    "nominal": [
+      0.14233615284816467,
+      1.1534958274661555e-06
+    ],
+    "time": 8.05,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.1456292131712695
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.13735438749848833,
+    "nominal": [
+      0.13735438749848833,
+      1.0593531622286416e-06
+    ],
+    "time": 8.1,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.167931768272917
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.13254698393604908,
+    "nominal": [
+      0.13254698393604908,
+      9.746223235869897e-07
+    ],
+    "time": 8.15,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.1895431705125583
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.12790783949829448,
+    "nominal": [
+      0.12790783949829448,
+      8.982030271868318e-07
+    ],
+    "time": 8.200000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.21048145923858
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.12343106511586,
+    "nominal": [
+      0.12343106511586,
+      8.291403605364955e-07
+    ],
+    "time": 8.25,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.23076446545761
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.1191109778368098,
+    "nominal": [
+      0.1191109778368098,
+      7.666035486038799e-07
+    ],
+    "time": 8.3,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.2504097900321747
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.11494209361252586,
+    "nominal": [
+      0.11494209361252586,
+      7.098681048996655e-07
+    ],
+    "time": 8.35,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.269434784642405
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.11091912033609123,
+    "nominal": [
+      0.11091912033609123,
+      6.583007754653222e-07
+    ],
+    "time": 8.4,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.287856535277429
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.10703695112433091,
+    "nominal": [
+      0.10703695112433091,
+      6.113468072980559e-07
+    ],
+    "time": 8.450000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.3056918480397606
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.103290657834982,
+    "nominal": [
+      0.103290657834982,
+      5.685191504141892e-07
+    ],
+    "time": 8.5,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.322957237062406
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.09967548481075988,
+    "nominal": [
+      0.09967548481075988,
+      5.293892904600916e-07
+    ],
+    "time": 8.55,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.3396689143535867
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.09618684284238556,
+    "nominal": [
+      0.09618684284238556,
+      4.935794282086755e-07
+    ],
+    "time": 8.6,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.3558427813981453
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0928203033429038,
+    "nominal": [
+      0.0928203033429038,
+      4.607558083911482e-07
+    ],
+    "time": 8.65,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.371494422357759
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.08957159272590368,
+    "nominal": [
+      0.08957159272590368,
+      4.306230009382128e-07
+    ],
+    "time": 8.700000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.386639098724283
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.08643658698049826,
+    "nominal": [
+      0.08643658698049826,
+      4.0291900108013756e-07
+    ],
+    "time": 8.75,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.401291745291771
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0834113064361823,
+    "nominal": [
+      0.0834113064361823,
+      3.7741101142444816e-07
+    ],
+    "time": 8.8,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.4154669673232263
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0804919107109169,
+    "nominal": [
+      0.0804919107109169,
+      3.538918130300643e-07
+    ],
+    "time": 8.85,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.4291790387977428
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.07767469383603592,
+    "nominal": [
+      0.07767469383603592,
+      3.321766212556939e-07
+    ],
+    "time": 8.9,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.4424419016328165
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.07495607955177525,
+    "nominal": [
+      0.07495607955177525,
+      3.1210037767145004e-07
+    ],
+    "time": 8.950000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.4552691657847596
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.0723326167674638,
+    "nominal": [
+      0.0723326167674638,
+      2.9351538824440304e-07
+    ],
+    "time": 9.0,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.467674110138046
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.069800975180603,
+    "nominal": [
+      0.069800975180603,
+      2.7628928406705133e-07
+    ],
+    "time": 9.05,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.4796696841014083
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.06735794104928287,
+    "nominal": [
+      0.06735794104928287,
+      2.603032349853448e-07
+    ],
+    "time": 9.1,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.4912685098352645
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.06500041311255826,
+    "nominal": [
+      0.06500041311255826,
+      2.454504042838831e-07
+    ],
+    "time": 9.15,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.5024828850410383
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.06272539865361929,
+    "nominal": [
+      0.06272539865361929,
+      2.316345811455752e-07
+    ],
+    "time": 9.200000000000001,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.5133247862487926
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.06053000970074311,
+    "nominal": [
+      0.06053000970074311,
+      2.1876900145600953e-07
+    ],
+    "time": 9.25,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.5238058725446706
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.05841145936121742,
+    "nominal": [
+      0.05841145936121742,
+      2.0677530199649427e-07
+    ],
+    "time": 9.3,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  },
+  {
+    "status": "ok",
+    "relative_degree": 1,
+    "initial_nested_set": [
+      3.533937489684632
+    ],
+    "nested_set_member": true,
+    "minimum_constraint_residual": 0.05636705828357531,
+    "nominal": [
+      0.05636705828357531,
+      1.9558260545837758e-07
+    ],
+    "time": 9.35,
+    "guidance_phase": "finish",
+    "tracking_target": [
+      4.0,
+      0.0
+    ]
+  }
+]

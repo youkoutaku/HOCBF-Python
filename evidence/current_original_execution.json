@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "examples": [
+    {
+      "example": "acc",
+      "qps": 300,
+      "matrix_error": 0.0,
+      "normalized_physical_control_error": 5.787110653314316e-10,
+      "relative_objective_error": 9.358072612008024e-11,
+      "closed_loop_state_error": 5.991616092160257e-10,
+      "closed_loop_control_error": 3.554014531828491e-10,
+      "passed": true
+    },
+    {
+      "example": "robot2d",
+      "qps": 2500,
+      "matrix_error": 3.410605131648481e-13,
+      "normalized_physical_control_error": 8.971444726853335e-06,
+      "relative_objective_error": 7.386927884679264e-10,
+      "closed_loop_state_error": 0.00039964362712296975,
+      "closed_loop_control_error": 0.0001981914387165773,
+      "passed": true
+    }
+  ],
+  "local_only_source_translation": true,
+  "noise": "Exact recorded 2500 x 14 Octave noise realization, not a cross-language random-seed equivalence claim."
+}

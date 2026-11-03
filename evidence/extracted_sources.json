@@ -1,0 +1,13 @@
+{
+  "source_project": "cc-mpc research workspace",
+  "source_files": {
+    "research/literature/adapters/qp.py": "7a4bcf5edf29bce0862688045de374d2b0d32fe3b09b4645af99c15a5b45837f"
+  },
+  "kind": "Independent research implementation, with the MPC-CBF strict port governed by its preserved upstream MIT notice. No unlicensed author source is distributed.",
+  "note": "Hashes identify the extraction inputs, not an assertion that every derived public file is byte-identical. New models/controllers and packaging are authored separately.",
+  "excluded_local_only_port": {
+    "source": "research/literature/native/python_ports/hocbf.py",
+    "sha256": "9615bfc3d634971c757c55a2267c4a7dcc38f04001369e46316165e9fd91541e",
+    "public": false
+  }
+}

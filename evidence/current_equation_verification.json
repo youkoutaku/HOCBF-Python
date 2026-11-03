@@ -1,0 +1,719 @@
+{
+  "passed": true,
+  "checks": 106,
+  "records": [
+    {
+      "test": "prediction_vs_independent_DOP853",
+      "model": "single_integrator",
+      "error": 1.734723475976807e-18,
+      "passed": true
+    },
+    {
+      "test": "prediction_vs_independent_DOP853",
+      "model": "double_integrator",
+      "error": 1.734723475976807e-18,
+      "passed": true
+    },
+    {
+      "test": "prediction_vs_independent_DOP853",
+      "model": "kinematic_unicycle",
+      "error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "test": "prediction_vs_independent_DOP853",
+      "model": "dynamic_unicycle",
+      "error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 0,
+      "error": 1.0738410161081902e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 1,
+      "error": 3.3720568004547147e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 2,
+      "error": 1.6132484237374456e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 3,
+      "error": 2.0834639569144997e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 4,
+      "error": 1.7869039581341895e-12,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 5,
+      "error": 1.480338074344445e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 6,
+      "error": 1.0957257323696012e-10,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 7,
+      "error": 4.943823128655822e-13,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 8,
+      "error": 6.269873509268109e-12,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 9,
+      "error": 5.92526028242446e-13,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 10,
+      "error": 9.137413048421195e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 11,
+      "error": 3.128081127456994e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 12,
+      "error": 3.828715122722315e-12,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 13,
+      "error": 1.3833575951416321e-10,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 14,
+      "error": 2.9911628729450968e-12,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 15,
+      "error": 2.5789925750530074e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 16,
+      "error": 8.869238676822988e-12,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 17,
+      "error": 2.4663415754133666e-10,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 18,
+      "error": 1.3387124742081369e-11,
+      "passed": true
+    },
+    {
+      "test": "active_set_vs_clarabel",
+      "case": 19,
+      "error": 3.777367307833401e-12,
+      "passed": true
+    },
+    {
+      "test": "infeasible_problem_retains_no_control",
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 0,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 1,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 2,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 3,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 4,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 5,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 6,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 7,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 8,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 9,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 10,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 11,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 12,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 13,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 14,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 15,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 16,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 17,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 18,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "single_integrator",
+      "case": 19,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 0,
+      "error": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 1,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 2,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 3,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 4,
+      "error": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 5,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 6,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 7,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 8,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 9,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 10,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 11,
+      "error": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 12,
+      "error": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 13,
+      "error": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 14,
+      "error": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 15,
+      "error": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 16,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 17,
+      "error": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 18,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "double_integrator",
+      "case": 19,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 0,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 1,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 2,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 3,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 4,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 5,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 6,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 7,
+      "error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 8,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 9,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 10,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 11,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 12,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 13,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 14,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 15,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 16,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 17,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 18,
+      "error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "kinematic_unicycle",
+      "case": 19,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 0,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 1,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 2,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 3,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 4,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 5,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 6,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 7,
+      "error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 8,
+      "error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 9,
+      "error": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 10,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 11,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 12,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 13,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 14,
+      "error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 15,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 16,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 17,
+      "error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 18,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "Lie_recursion_vs_closed_form",
+      "model": "dynamic_unicycle",
+      "case": 19,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "test": "zero_offset_angular_channel",
+      "passed": true
+    }
+  ],
+  "scope": "Equations, model contracts and independent numerical solver checks; not universal closed-loop safety or exact author figure reproduction."
+}

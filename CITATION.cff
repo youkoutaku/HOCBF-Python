@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite the original paper when using this implementation. This repository is not author code."
+title: "HOCBF-Python: reproduction and model extensions"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - given-names: "Yo"
+    family-names: "Kotaku"
+    website: "https://github.com/youkoutaku"
+references:
+  - type: article
+    title: "High-Order Control Barrier Functions"
+    url: "https://ieeexplore.ieee.org/document/9516971/"
