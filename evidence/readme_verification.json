@@ -1,8 +1,9 @@
 {
-  "created_at_utc": "2026-11-03T12:59:07.193122+00:00",
+  "created_at_utc": "2026-11-03T13:28:28.250746+00:00",
   "passed": true,
   "scope": "Unified EN/ZH README outlines, two inline animations, default and no-waypoint results for every model. MPC no-waypoint section reuses its existing direct-goal records.",
   "english_outline": [
+    "## Original paper",
     "## Reproduction scope",
     "## Install and run",
     "## Single-obstacle demo",
@@ -17,10 +18,12 @@
     "## Original problem entry",
     "## Other examples and verification",
     "## Author and maintainer",
+    "## AI-assisted coding disclosure",
     "## Publication preparation",
     "## License and attribution"
   ],
   "chinese_outline": [
+    "## \u539f\u8bba\u6587\u4fe1\u606f",
     "## \u590d\u73b0\u8303\u56f4",
     "## \u5b89\u88c5\u4e0e\u8fd0\u884c",
     "## \u5355\u969c\u788d\u7269 demo",
@@ -35,6 +38,7 @@
     "## \u539f\u6587\u95ee\u9898\u5165\u53e3",
     "## \u5176\u4ed6\u793a\u4f8b\u4e0e\u9a8c\u8bc1",
     "## \u4f5c\u8005\u4e0e\u7ef4\u62a4\u8005",
+    "## AI \u8f85\u52a9\u7f16\u7a0b\u58f0\u660e",
     "## \u53d1\u5e03\u51c6\u5907",
     "## \u8bb8\u53ef\u4e0e\u5f52\u5c5e"
   ],
@@ -146,7 +150,7 @@
     }
   ],
   "README_sha256": {
-    "README.md": "ca3c67668b28ec2c7c6d830a735214bca7b219bdad5e208d8f34754e6c29d793",
-    "README_ZH.md": "4f3121d4e84c379632767a5f1257753258625bc1a09a5cf71d7fe706c8dbe0cf"
+    "README.md": "cca82eb0dbbc4c97c73df36a300cca8647bc8ee9572ca3443f42f1226e62ce04",
+    "README_ZH.md": "dd17da7ab7f803f7a93c7f3850f5f360dc12e3a54700ad270c934aeeb7033ffa"
   }
 }
